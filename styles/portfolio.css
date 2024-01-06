@@ -180,16 +180,35 @@ main .section {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
+  text-align: left;
 }
 .footer-column-description {
   color: #474747;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px; /* 175% */
+  text-align: left;
 }
 footer{
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
+}
+.social-links a{
+ margin-right: 25px;
+}
+.footer-column{
+    width: 50%;
+}
+.Contact input[type="text"], .Contact input[type="Email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }
